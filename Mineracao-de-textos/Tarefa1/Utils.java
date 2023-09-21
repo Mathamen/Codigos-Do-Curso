@@ -161,7 +161,7 @@ public class Utils {
         int contador=0;
         for (Map.Entry<String, Integer> entrada : mapa.entrySet()) {
             System.out.println(entrada.getKey() + "- " + entrada.getValue());
-            if (contador==limiteImpressao) break;
+            if (contador < imiteImpressao) break;
             contador++;
         }
 	}
